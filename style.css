@@ -1,0 +1,100 @@
+body {
+	background: url(pics/pattern1.jpg);
+	background-size: cover;
+}
+
+#navbarNavAltMarkup .nav-link {
+	color: white;
+}
+
+#menuBar .navbar-brand:hover {
+  color: #5eb2e3;
+}
+
+#navbarNavAltMarkup .nav-link:hover {
+  color: #5eb2e3;
+}
+
+.navbar {
+	border-bottom: 4px solid #5eb2e3;
+	padding-left: 20px;
+}
+
+#top {
+	background: url(pics/pic4.jpg);
+	background-size: cover;
+	border-bottom: 3px solid #5eb2e3;
+	background-repeat: no-repeat;
+	height: 720px;
+	background-blend-mode: overlay;
+}
+
+#content {
+	text-align: center;
+	padding-top: 23%; 
+}	
+
+hr {
+	opacity: 100;
+	margin: 16px auto;
+	width: 400px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+p {
+	padding-top: 15px;
+}
+
+#back img, #front img, #other img {
+	max-height: 70px;
+}
+
+#back h3, #front h3, #other h3 {
+	border-bottom: 4px solid #5eb2e3;
+}
+
+#back, #front, #other {
+	border: 1px solid black;
+	margin-bottom: 50px;
+	padding-right: 0px;
+    padding-left: 0px;
+    background-color: white;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.card {
+	border-color: grey;
+	box-shadow: 5px 5px 5px grey;
+}
+
+#contact {
+	margin-top: 150px;
+	padding-top: 50px;
+	padding-bottom: 150px;
+	background-color: #343a40;
+	border-top: 4px solid #5eb2e3;
+	border-bottom: 20px solid #5eb2e3;
+	color: white;
+}
+
+#skills h1, #projects h1{
+	color: #343a40;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	text-shadow: 0px 4px 3px #5eb2e3;
+}
+
+@media (max-width: 700px) {
+	#content {
+	padding-top: 45%;
+	}
+}
+
+i { 
+	padding-right: 15px;
+	font-size: 35px;
+}
+
+
+
