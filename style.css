@@ -23,9 +23,9 @@ body {
 	background: url(pics/pic4.jpg);
 	background-size: cover;
 	border-bottom: 3px solid #5eb2e3;
-	background-repeat: no-repeat;
-	height: 720px;
-	background-blend-mode: overlay;
+	/*background-repeat: no-repeat;*/
+	height: 820px;
+	/*background-blend-mode: overlay;*/
 }
 
 #content {
@@ -57,9 +57,9 @@ p {
 	border: 1px solid black;
 	margin-bottom: 50px;
 	padding-right: 0px;
-    padding-left: 0px;
-    background-color: white;
-    box-shadow: 5px 5px 5px grey;
+  padding-left: 0px;
+  background-color: white;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .card {
