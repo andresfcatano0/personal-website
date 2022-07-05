@@ -46,7 +46,7 @@ p {
 }
 
 #back img, #front img, #other img {
-	max-height: 70px;
+	max-height: 75px;
 }
 
 #back h3, #front h3, #other h3 {
